@@ -1,18 +1,24 @@
 ---
 ## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
+title: "What You’ll Find Here" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
+
+ This site is all about trading, coding, and learning in public. You’ll find:
   
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
-show_outro: true
+  - **Trading Blog:** A transparent look at my day trading journey — wins, losses, and lessons learned.
+  
+  - **Trading Materials:** Some extra resources, insights, and tools I find useful for trading
+  
+  - **Projects:** My coding experiments, mostly related to financial markets, but who knows what else might sneak in?
+  
+ It’s all here for anyone who finds it interesting (or just wants to see what not to do in trading). So, take a look around and enjoy!
+show_outro: false
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 ---
 
-** index doesn't contain a body, just front matter above.
-See about/list.html in the layouts folder **
+\*\* index doesn't contain a body, just front matter above. See about/list.html in the layouts folder \*\*
